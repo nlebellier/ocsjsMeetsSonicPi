@@ -25,11 +25,11 @@ var getIPAddresses = function () {
 
 var udpPort = new osc.UDPPort({
     localAddress: "0.0.0.0",
-    localPort: 4560,
+    localPort: 9000,
 
-	// Important : indicates the incoming port displayed into sonic pi ! here 51240
+	// sonic pi receives on port 4560 if this port is not used.
     remoteAddress: "127.0.0.1",
-    remotePort: 51240,
+    remotePort: 4560,
     metadata: true
 	
 });
