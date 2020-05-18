@@ -1,0 +1,11 @@
+{
+    "name": "osc.js-meets-sonicpi",
+    "main": "index.js",
+    "version": "0.1.1",
+    "description": "Example of how to use osc.js in Node.js with Sonic Pi",
+    "readmeFilename": "README.md",
+    "license": "(MIT OR GPL-2.0)",
+    "dependencies": {
+        "osc": "2.4.0"
+    }
+}
